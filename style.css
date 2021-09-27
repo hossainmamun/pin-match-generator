@@ -1,0 +1,48 @@
+.pin-generat {
+    background-color: #9381ff;
+    height: 100vmin;
+}
+.generator-interface,
+.result-interface {
+    background-color: #001d3d;
+}
+.generate-btn {
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 100px 0 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.number-area .number {
+    width: 70px;
+    height: 60px;
+    position: relative;
+    cursor: pointer;
+}
+.number-area .number span {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+#notify-section {
+    display: none;
+    background-color: #001d3d;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
